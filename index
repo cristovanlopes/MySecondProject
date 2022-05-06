@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>Ola, me chamo Alex</title>
+    <style>
+      body {
+        font-family: Arial;
+        color: #4a566e;
+      }
+      
+      .caixa1 {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        text-align: center;
+        background:url(https://i.imgur.com/Uw513ce.png);
+      }
+      .menu {
+        padding-right: 40px;
+        text-align: right;
+      }
+      .caixa2 {
+        background: #741bff;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+      }
+      .caixa3 {
+       height: 300px;
+      }
+      h1 {
+        text-align: center;
+        font-size: 48px;
+      }
+      p {
+        
+      }
+      a  { 
+        text-decoration: none;
+        color:#4a566e;
+        margin-left: 20px;
+      }
+      a:hover{color:blue;}
+      img {
+        height: 150px;
+        border-radius: 100px;
+      }
+      .habilidade {
+        background: white;
+        width: 300px;
+        height: 500px;
+        border-radius: 30px;
+        margin-left: 50px;   
+        margin-right: 50px;     
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="caixa1" id="sobre">
+      <div class="menu">  
+        <a href="#sobre">Sobre mim</a>
+        <a href="#habilidades">Habilidades</a>  
+        <a href="#contato" > Fale Comigo!</a>  
+      </div>
+      <h1>Alex Ferreira</h1>
+      <p>Eu sou um desenvolvedor full-stack começando minha carreira e apaixonado <br> por aprender coisas novas. Além disso, sou uma</p>
+      <img src="https://i.imgur.com/rKFgcEU.png">
+    </div>
+    <div class="caixa2" id="habilidades">
+      <div class="habilidade">
+        <h1>Frontend</h1>
+      </div>
+      <div  class="habilidade">
+        <h1>Backend</h1>
+      </div>
+    </div>
+    <div class="caixa3">Caixa 3</div>
+  </body>
+</html>>
+
