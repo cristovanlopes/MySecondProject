@@ -1,0 +1,26 @@
+package aula1904;
+
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+//		
+int Entrada = 0, I = 0, Contador = 0;	
+Entrada=sc.nextInt();
+I=Entrada;
+
+
+do{
+
+
+System.out.println(Contador);
+	Contador++;
+}
+while(I>Contador);
+
+	}
+
+}
